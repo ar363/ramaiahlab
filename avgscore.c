@@ -29,10 +29,10 @@ int main() {
   weightedTotal = 0.3*avgQuiz + 0.4*avgMidterm + 0.3*final;
   
   printf("\n\n--- RESULTS ---\n");
-  
+  z`z
   printf("Avg quiz = %.2f\n", avgQuiz);  
   printf("Avg midterm = %.2f\n", avgMidterm);
-  printf("Final = %.2f\n", final);
+  printf("Final = %.2f\n\n", final);
   printf("Weighted total = %.2f\n\n", weightedTotal);
   
 }
@@ -61,6 +61,7 @@ Enter final exam score: 94
 Avg quiz = 81.50
 Avg midterm = 88.50
 Final = 94.00
+
 Weighted total = 88.05
 
 */
