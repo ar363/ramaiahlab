@@ -18,7 +18,7 @@ int main()
   printf("Discounted Total: %.2f\n", subtaxable);
   printf("Sales Tax: %.2f\n\n", taxamt);
 
-  printf("Total sales is %f \n", grandtotal);
+  printf("Total sales is %.2f \n", grandtotal);
 }
 
 /*
@@ -33,6 +33,6 @@ Discount: -250.00
 Discounted Total: 9750.00
 Sales Tax: 1755.00
 
-Total sales is 11505.000000
+Total sales is 11505.00
 
 */
