@@ -3,11 +3,8 @@
 int main(void)
 {
     // Local Declarations
-    int a = 3;
-    int b = 4;
-    int c = 5;
-    int x;
-    int y;
+    int a = 3, b = 4, c = 5, x, y;
+    
     // Statements
     printf("Initial values of the variables: \n");
     printf(" a = %d , b = %d , c = %d \n", a, b, c);
