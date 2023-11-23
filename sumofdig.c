@@ -22,3 +22,9 @@ void main() {
 	
 }
 
+/*
+Enter number: 153
+Your number is 153
+The number of digits is 3
+The sum of digits is 9
+*/

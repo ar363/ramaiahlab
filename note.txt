@@ -1,8 +1,0 @@
-- electricity bill "assignment" it seems
-- fibonacci beda
-- binary to decimal dont want
-
-- 1d array part inda next 2 also hv to write it seems
-
-- factorial one do both loop and recursion
-

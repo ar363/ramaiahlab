@@ -6,7 +6,7 @@ right triangle
 #include<stdio.h>
 
 void main() {
-	int lim, i j;
+	int lim, i, j;
 	printf("Enter pattern limit: ");
 	scanf("%d", &lim);
 	for(i=1; i<=lim; i++) {
