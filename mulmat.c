@@ -3,12 +3,12 @@ int main() {
     int a[10][10], b[10][10], c[10][10], n, i, j, k;
 
     printf("Enter the no of elements in matrix ");
-    scanf("%d", & n);
+    scanf("%d", &n);
     printf("Enter the elements of matrix 1: \n");
 
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {
-            scanf("%d", & a[i][j]);
+            scanf("%d", &a[i][j]);
         }
     }
 
@@ -16,7 +16,7 @@ int main() {
 
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {
-            scanf("%d", & b[i][j]);
+            scanf("%d", &b[i][j]);
         }
     }
 
