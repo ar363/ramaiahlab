@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main() {
-    int a[10][10], at[10][10], n, i, j, k;
+    int a[10][10], at[10][10], n, i, j;
 
     printf("Enter the no of elements in matrix ");
     scanf("%d", &n);
