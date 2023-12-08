@@ -1,14 +1,12 @@
-/*
-• C-Program to perform addition of two matrices.
-*/
+
 #include<stdio.h>
 
 void main() {
 	int a[100][100], rowsum, colsum, fullsum = 0, nrows, ncols, i, j;
 	
-	printf("Enter no of rows of matrices: ");
+	printf("Enter no of rows: ");
 	scanf("%d", &nrows);
-	printf("Enter no of cols of matrices: ");
+	printf("Enter no of cols: ");
 	scanf("%d", &ncols);
 	
 	printf("Enter elements for matrix\n");
@@ -23,7 +21,7 @@ void main() {
 		for(j=0; j<ncols; j++) {
 			rowsum += a[i][j];
 		}
-		printf("Row sum of row %d is = %d\n", i+1, rowsum);
+		printf("sum of row %d is = %d\n", i+1, rowsum);
 	}
 	
 	for(i=0; i<ncols; i++) {
@@ -31,7 +29,7 @@ void main() {
 		for(j=0; j<nrows; j++) {
 			colsum += a[j][i];
 		}
-		printf("Col sum of col %d is = %d\n", i+1, colsum);
+		printf("sum of col %d is = %d\n", i+1, colsum);
 	}
 	
 	
