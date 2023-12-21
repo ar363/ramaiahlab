@@ -1,5 +1,3 @@
-// not working
-
 #include<stdio.h>
 
 void main() {
@@ -7,10 +5,10 @@ void main() {
 	int i = 0, s1Length = 0, s2Length;
 
 	printf("Enter a string\n");
-	scanf("%s", s1);
+	gets(s1);
 	
 	printf("Enter another string\n");
-	scanf("%s", s2);
+	gets(s2);
 	
 	
 	while(s1[i] != '\0') {
