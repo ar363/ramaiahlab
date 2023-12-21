@@ -17,13 +17,13 @@ void main() {
     printf("Concatenated string: %s\n", s1copy);
 
     printf("Comparing the 2 strings: \n");
+    printf("Length of string1 is %d & string2 is %d\n", strlen(s1), strlen(s2));
     int result = strcmp(s1, s2);
     if (result == 0)
         printf("Strings are equal.\n");
     else if (result < 0)
-        printf("String 1 smaller than string 2 \n");
+        printf("String 2 is greater\n");
     else
-        printf("String 1 larger than string 2 \n");
+        printf("String 1 is greater\n");
 
-    printf("Length of string 1 is %d\n", strlen(s1));
 }
