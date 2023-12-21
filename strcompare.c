@@ -1,5 +1,3 @@
-// not working
-
 #include<stdio.h>
 
 void main() {
